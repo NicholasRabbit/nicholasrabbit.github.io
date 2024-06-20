@@ -1,10 +1,10 @@
 ```yaml
+---
 layout: page
 title: "Contact Me"
-permalink: /contact
+permalink: /profile/contact
+---
 ```
-
-
 
 Email: hi@gmail.com
 
