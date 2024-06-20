@@ -1,10 +1,10 @@
-------------
-
+```yaml
 layout: page
-title: "contact me"
+title: "Contact Me"
 permalink: /contact
+```
 
-----------------
+
 
 Email: hi@gmail.com
 
