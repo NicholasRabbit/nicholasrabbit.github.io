@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "About Thie Website"
+title:  "About This Website"
 ---
 
 If I had enouth time, I would build my website on GitHub pages. I always write essays, jounals and so forth on blogger.com. As a programmer, it is quite convenient to build a webiste based on a repository in GitHub.
