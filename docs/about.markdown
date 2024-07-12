@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+If I had enough time, I would build my website on GitHub pages. I always write essays, journals and so forth on blogger.com. As a programmer, it is quite convenient to build a website based on a repository in GitHub.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+However, as far as I know, I should build it from scratch. There must be some templates somewhere. In order to save an middle aged man's precious time, I will find them later.
