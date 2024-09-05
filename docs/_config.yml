@@ -21,7 +21,7 @@
 title: Winter Is Coming
 email: asknicholas@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  To add a description later.
+  To be added a description later.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
   #twitter_username: jekyllrb
