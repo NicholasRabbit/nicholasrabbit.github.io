@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Writing the Dissertation for The Bachelor Degree"
+title: "Writing the Dissertation for A Bachelor Degree"
 date: 2024-04-17 12:00:00 +0000
 categories: [journal]
 tags: [degree]
+
 ---
 
 It is a long time since I wrote the last journal. In order to hand in my dissertation on time, I have to spent much time writing it. The deadline is approaching so that I have to write it day and night. If I passed the verification, I would be granted with a bachelor degree on computer science. 
