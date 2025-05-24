@@ -8,3 +8,5 @@ If I had enough time, I would build my website on GitHub pages. As a programmer,
 
 Presumably, there are grammatical errors, misspelled words and inappropriate expression in these essays, but it is acknowledged that making mistakes is inevitable when you are learning a language. Whereas, that does not mean I will ignore that. 
 
+[My Story](./my_story/about_my_job)
+
