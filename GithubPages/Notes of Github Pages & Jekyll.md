@@ -88,4 +88,3 @@ Jekyll is an active open source project that is updated frequently. If the `gith
 It is extremely difficult to connect "rubygems.org" when I was trying to run `bundle` as [the guidance](https://jekyllrb.com/docs/step-by-step/01-setup/) said.
 
 When you are running `bundle`, the mirror site in `Gemfile` is "https://rubygems.org/" which is not accessed in China; you should replace it with " https://gems.ruby-china.com". 
-
