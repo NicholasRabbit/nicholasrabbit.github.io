@@ -1,5 +1,5 @@
 ---
-short_name: Tom
+short_name: tom
 name: Thomas Brady
 position: Quarter Back
 ---
