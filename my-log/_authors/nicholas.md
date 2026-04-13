@@ -1,5 +1,5 @@
 ---
-short_name: Nick
+short_name: nick
 name: Nicholas
 position: Chief Editor
 ---
