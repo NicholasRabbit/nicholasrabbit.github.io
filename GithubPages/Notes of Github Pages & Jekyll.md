@@ -24,6 +24,8 @@ sudo dnf group install "Development Tools"
 ​     4.1 Visit Jekyll server outside of the local host:
 
 ```shell
+ # Use "bundle ..." to start jekyll, which restricts your Ruby environment to 
+ # only use gems set in your Gemfile. 
  bundle exec jekyll serve --host 0.0.0.0 --port 8080 
  # or 
  jekyll serve --host 0.0.0.0 --port 8080 

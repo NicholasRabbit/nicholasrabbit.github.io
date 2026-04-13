@@ -9,7 +9,7 @@
 1. Note that the "Front Matter" is written in the original file, such as `root/index.htm.`, but not the generated file in `_site`.  When `jekyll serve` is executed, the original file will have been generated a new file in `_site` to replace the old one.
 2. You must populate "Front Matter" to your file if you want to use "Liquid Tags" in Jekyll.
 
-#### Layouts
+#### 4. Layouts
 
 1) How to use "layout" ? 
 
@@ -62,9 +62,9 @@ defaults:
       layout: "default"
 ```
 
+After configuring the default layout for pages by categories, we can remove the layout from front matters of all pages. 
 
-
-### Assets
+#### 7. Assets
 
 1. Don't key words with spelling error!!
 
@@ -73,5 +73,43 @@ defaults:
 ```html
 <!--It is stylesheet NOT stytlesheet-->
 <link rel="stylesheet" href="/assets/css/styles.css">
+```
+
+#### 9. Collections
+
+(1) N.B. In order to list all the posts of an author, the author's name in the front matter of a post should be as same as the `short_name` in the front matter of the page of this author's information.  For example, 
+
+`_posts/2025-04-06-A post`
+
+```html
+---
+author: nick
+---
+```
+
+`_authors/nicholas.md` (The page of an author's information)
+
+```html
+---
+short_name: nick
+---
+```
+
+How to connect them? 
+
+Read the document of this chapter. 
+
+### Others 
+
+#### Permalinks
+
+"permalink" allows us to customise the URL for a page; the URL can be different from the page's name.
+
+As an illustration, if you want the URL of `/my_pages/about-me.html` to be `/about/`, you should set the it to the value of `permalink` in the front matter of the page. 
+
+```markdown
+---
+permalink: /about/
+---
 ```
 
