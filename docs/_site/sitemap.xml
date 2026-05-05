@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://0.0.0.0:9090/authors/nicholas.html</loc>
-<lastmod>2026-04-27T17:28:19+08:00</lastmod>
+<lastmod>2026-05-05T17:28:28+08:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:9090/authors/tom.html</loc>
-<lastmod>2026-04-27T17:28:19+08:00</lastmod>
+<lastmod>2026-05-05T17:28:28+08:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:9090/2024/03/29/Focus.html</loc>
@@ -67,10 +67,10 @@
 <loc>http://0.0.0.0:9090/blog.html</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:9090/</loc>
+<loc>http://0.0.0.0:9090/collections.html</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:9090/staff.html</loc>
+<loc>http://0.0.0.0:9090/</loc>
 </url>
 <url>
 <loc>http://0.0.0.0:9090/tdd/</loc>

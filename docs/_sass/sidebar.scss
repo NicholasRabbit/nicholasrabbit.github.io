@@ -1,0 +1,13 @@
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    background-color: #1d2a35;
+    overflow-y: auto;
+
+    padding-top: 20px;
+}

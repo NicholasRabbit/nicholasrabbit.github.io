@@ -2,7 +2,11 @@
   link: /
 - name: Blog
   link: /blog.html
-- name: Staff
-  link: /staff.html
+- name: Collections
+  link: /collections.html
+- name: Twitter
+  link: https://x.com/wuyang_s
+- name: Github
+  link: https://github.com/NicholasRabbit
 - name: About
   link: /about.html

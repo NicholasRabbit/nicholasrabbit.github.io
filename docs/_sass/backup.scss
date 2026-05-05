@@ -1,0 +1,65 @@
+/* Whole page layout */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Layout container */
+.layout {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    background-color: #1d2a35;
+    overflow-y: auto;
+
+    padding-top: 20px;
+}
+
+/* Site title */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+/* Navigation links */
+.sidebar a {
+    display: block;
+
+    color: #f1f1f1;
+    text-decoration: none;
+
+    padding: 12px 20px;
+
+    font-size: 16px;
+}
+
+/* Hover effect */
+.sidebar a:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Current active page */
+.sidebar a.current {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Main content */
+.content {
+    margin-left: 220px;
+    padding: 30px;
+    width: 100%;
+}

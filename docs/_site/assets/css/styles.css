@@ -14,18 +14,31 @@
 .layout {
   display: flex;
   min-height: 100vh;
-  background: #f5f7fa;
+  background: #fffaf0;
+}
+
+/* logo */
+.logo {
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: black;
 }
 
 /* Sidebar */
 .sidebar {
+  font-family: Arial, sans-serif;
   width: 240px;
-  background: #1e293b; /* dark blue */
-  color: #fff;
-  padding: 20px;
+  background: #c0c0c0;
+  color: #000000;
+  padding: 10px;
   position: sticky;
   top: 0;
   height: 100vh;
+}
+
+.sidebar a {
+  color: #000000;
 }
 
 /* Navigation */
@@ -47,7 +60,7 @@
 
 /* Hover */
 .nav-item:hover {
-  background: #334155;
+  background: #3b82f6;
   color: #fff;
 }
 
@@ -98,10 +111,15 @@ p {
     margin-right: 10px;
   }
 }
-.logo {
-  margin-bottom: 20px;
-  font-size: 20px;
-  color: white;
+/* Whole page layout */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Layout container */
+.layout {
+  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */
