@@ -75,6 +75,19 @@ After configuring the default layout for pages by categories, we can remove the 
 <link rel="stylesheet" href="/assets/css/styles.css">
 ```
 
+3. Import multiple CSS files in `assets/css/styles.scss`from `_sass/` 
+
+   ```scss
+   ---
+   ---
+   @import "main";
+   @import "layout";
+   ```
+
+   `main.scss` and `layout.scss` are in `_sass/`
+
+   
+
 #### 9. Collections
 
 (1) N.B. In order to list all the posts of an author, the author's name in the front matter of a post should be as same as the `short_name` in the front matter of the page of this author's information.  For example, 

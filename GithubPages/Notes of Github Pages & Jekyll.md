@@ -45,6 +45,8 @@ sudo dnf group install "Development Tools"
 
 2) Set public resources.
 
+Navigate to your site's repository and click "settings".
+
 If you select `/docs` , only the source in this directory will be published and it is also the root directory  where Jekyll build the website.
 
 <img src="note-images/1718783386574.png" alt="1718783386574" style="zoom:50%;" />
