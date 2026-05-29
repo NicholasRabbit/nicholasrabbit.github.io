@@ -3,12 +3,19 @@ layout: default
 title: Blog
 ---
 
+<style type="text/css">
+	li#post-title {
+		margin: 1.0rem;
+	}	
+
+</style>
+
 <h1>Lastest Blogs</h1>
 
 <ul>
 	{% for post in site.posts %}
-	<li>
-		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+	<li id="post-title">
+		<a href="{{ post.url }}">{{ post.title }}</a>
 		<!--{{ post.excerpt }}-->
 	</li>
 	{% endfor %}

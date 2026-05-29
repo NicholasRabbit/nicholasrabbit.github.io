@@ -4,6 +4,10 @@
 
 /* Added by AI */
 /* Reset */
+body {
+  background-color: rgba(240, 240, 240, 0.9411764706);
+}
+
 * {
   margin: 0;
   padding: 0;
