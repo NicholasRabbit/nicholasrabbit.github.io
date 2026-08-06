@@ -1,146 +1,627 @@
 
-<!DOCTYPE html>
-<html>
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Nick's Blog</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-	<link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:9090/feed.xml" />
-	<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Nick’s Blog</title>
-<meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Nick’s Blog" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://0.0.0.0:9090/" />
-<meta property="og:url" content="http://0.0.0.0:9090/" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Nick’s Blog" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Nick’s Blog","url":"http://0.0.0.0:9090/"}</script>
-<!-- End Jekyll SEO tag -->
+    
+<meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>Nick’s Blog</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Xianghui">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Nick&#39;s Blog">
+<meta property="og:title" content="Nick’s Blog">
+<meta property="og:url" content="http://0.0.0.0:9090/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://0.0.0.0:9090/">
+
+
+
+  <link rel="next" href="http://0.0.0.0:9090/page2/">
+
+
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+    "name": "Nicholas",
+    "url": "http://0.0.0.0:9090/"
+}
+</script>
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Nick's Blog Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
 
   </head>
-  <body>
 
-	  <div class="layout">
-		  <aside class="sidebar">
-			  <!--<h2 class="logo">Nicholas Song</h2>-->
-			  
-			  <nav> 
+  <body class="layout--home">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
-	<!--
-		
-		<a href="/"  style="color: green" >
-		Home
-		</a>
-		
-		<a href="/blog.html" >
-		Blog
-		</a>
-		
-		<a href="/collections.html" >
-		Collections
-		</a>
-		
-		<a href="https://x.com/wuyang_s" >
-		Twitter
-		</a>
-		
-		<a href="https://github.com/NicholasRabbit" >
-		Github
-		</a>
-		
-		<a href="/about.html" >
-		About
-		</a>
-		
-	-->
-
-	<!--
-	<nav>
-		
-		<a href="/" class="current">
-			Home
-		</a>
-		
-		<a href="/blog.html">
-			Blog
-		</a>
-		
-		<a href="/collections.html">
-			Collections
-		</a>
-		
-		<a href="https://x.com/wuyang_s">
-			Twitter
-		</a>
-		
-		<a href="https://github.com/NicholasRabbit">
-			Github
-		</a>
-		
-		<a href="/about.html">
-			About
-		</a>
-		
-	</nav>
-	-->
+    
 
 
-	<nav class="nav">
-		
-		<a href="/"
-		   class="nav-item active">
-			Home
-		</a>
-		
-		<a href="/blog.html"
-		   class="nav-item ">
-			Blog
-		</a>
-		
-		<a href="/collections.html"
-		   class="nav-item ">
-			Collections
-		</a>
-		
-		<a href="https://x.com/wuyang_s"
-		   class="nav-item ">
-			Twitter
-		</a>
-		
-		<a href="https://github.com/NicholasRabbit"
-		   class="nav-item ">
-			Github
-		</a>
-		
-		<a href="/about.html"
-		   class="nav-item ">
-			About
-		</a>
-		
-	</nav>
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Nick&#39;s Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Home</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/year-archive/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
 
 
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://0.0.0.0:9090/">
+        <img src="/assets/images/sasuke.jpg" alt="Xianghui" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://0.0.0.0:9090/" itemprop="url">Xianghui</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>A craftsman</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:asknicholas@outlook.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-square-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://twitter.com/wuyang_s" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-square-x-twitter" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/NicholasRabbit" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/ask-nicholas" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title"></h1>
+    
+    <h2> The is site is being maitained.</h2>
+
+
+
+<h3 class="archive__subtitle">Recent posts</h3>
+
+
+
+
+<div class="entries-list">
+  
+
+
+
+
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc p-name" itemprop="headline">
+      
+        <a class="u-url" href="/Bananas/" rel="permalink">Bananas
+</a>
+      
+    </h2>
+    
+
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">A banana is an edible fruit – botanically a berry – produced by several
+kinds of large herbaceous flowering plants in the genus Musa.
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc p-name" itemprop="headline">
+      
+        <a class="u-url" href="/Visiting-Genuine-Landscape/" rel="permalink">Visiting Genuine Landscape
+</a>
+      
+    </h2>
+    
+
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">As Artificial Intellengence is becoming more and more popular, many generated video have been releasing on the Internet.
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc p-name" itemprop="headline">
+      
+        <a class="u-url" href="/journals/draft/Discipline/" rel="permalink">Discipline
+</a>
+      
+    </h2>
+    
+
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">When I was at college I developed rhinitis and felt splitting headache when the temperature changed drastically. Many general practitioners in my hometown ha...</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc p-name" itemprop="headline">
+      
+        <a class="u-url" href="/Jekyll/" rel="permalink">Jekyll
+</a>
+      
+    </h2>
+    
+
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">Ironically, as a Java developer, I found that it is interesting to build a website based on Jekyll, which is a framework written by Ruby. 
+One reason is pres...</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc p-name" itemprop="headline">
+      
+        <a class="u-url" href="/journal/programming/What-Is-Algorithm-and-Why-To-Learn/" rel="permalink">What Is Algorithm and Why To Learn
+</a>
+      
+    </h2>
+    
+
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt p-summary" itemprop="description">When it comes to algorithms, it always remind me of the Gauss’ solution to summarise the numbers from one to a hundred which I learned in primary school. Per...</p>
+  </article>
+</div>
+
+</div>
+
+
+
+  
+    
+
+<nav class="pagination" aria-label="Pagination">
+  
+  
+  <ul>
+    
+    
+    <li><a href="#" class="disabled"><span aria-hidden="true">Previous</span></a></li>
+    
+
+    
+    
+      <li><a href="#" class="disabled current">1</a></li>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
+        
+        
+        <li><a href="/page2/">2</a></li>
+      
+    
+
+    
+    
+
+    
+      <li><a href="/page3/">3</a></li>
+    
+
+    
+    
+      <li><a href="/page2/">Next</a></li>
+    
+  </ul>
 </nav>
 
 
-		  </aside>
-		  <main class="content"> 
-			  <!-- <h1>hello world! </h1> -->
-<h1>Hello world! </h1>
+  
 
-<body>
-	<a href="/blog.html">Blog is available.</a>
-</body>
 
-		  </main>
 
-	  </div>
+  </div>
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2013 - 2026 <a href="http://0.0.0.0:9090">Nick&#39;s Blog</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
 
 
   </body>
-
 </html>
-

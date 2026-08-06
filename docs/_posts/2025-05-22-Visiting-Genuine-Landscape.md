@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 author: Nicholas
 ---
 As Artificial Intellengence is becoming more and more popular, many generated video have been releasing on the Internet. 

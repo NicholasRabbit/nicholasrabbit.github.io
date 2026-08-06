@@ -1,29 +1,37 @@
+---
+---
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
 
-<!DOCTYPE html>
-<html>
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ locale | replace: '_', '-' | default: 'en' }}" class="no-js" dir="{{ page.direction | default: layout.direction | default: site.direction | default: 'ltr' }}">
   <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-	{% feed_meta %}
-	{% seo %}
+    {% include head.html locale=locale %}
+    {% include head/custom.html %}
   </head>
-  <body>
 
-	  <div class="layout">
-		  <aside class="sidebar">
-			  <!--<h2 class="logo">Nicholas Song</h2>-->
-			  
-			  {% include navigation.html %}
-		  </aside>
-		  <main class="content"> 
-			  {{ content }}
-		  </main>
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html locale=locale %}
+    {% include_cached masthead.html locale=locale %}
 
-	  </div>
+    <div class="initial-content">
+      {{ content }}
+      {% include after-content.html %}
+    </div>
 
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html locale=locale %}
+      </div>
+    {% endif %}
 
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html locale=locale %}
+      </footer>
+    </div>
+
+    {% include scripts.html locale=locale %}
   </body>
-
 </html>
-

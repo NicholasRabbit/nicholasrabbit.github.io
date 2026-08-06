@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Writing the Dissertation for A Bachelor Degree"
 date: 2024-04-17 12:00:00 +0000
 categories: [journal]

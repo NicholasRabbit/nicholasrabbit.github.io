@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Discipline"
 date: 2025-04-15 12:00:00 +0000
 categories: [journals,draft]

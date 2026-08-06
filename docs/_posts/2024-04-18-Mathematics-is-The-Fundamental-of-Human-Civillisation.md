@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Mathematics is The Fundamental of Science"
 date: 2024-04-18 12:00:00 +0000
 categories: [blog,journal]
