@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "What Is Algorithm and Why To Learn"
 date: 2024-05-10 12:00:00 +0000
 categories: [journal, programming]

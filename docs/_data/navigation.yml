@@ -9,6 +9,6 @@ main:
   - title: "Home"
     url: /
   - title: "Posts"
-    url: /year-archive/
+    url: /posts/
   - title: "About"
     url: /about/

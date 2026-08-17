@@ -53,12 +53,6 @@ var store = [{
         "url": "/journal/programming/What-Is-Algorithm-and-Why-To-Learn/",
         "teaser": null
       },{
-        "title": "Jekyll",
-        "excerpt":"Ironically, as a Java developer, I found that it is interesting to build a website based on Jekyll, which is a framework written by Ruby. One reason is presumably there is a thorough and user-friendly documentation; maybe there are documentation about how to build a website with Java, but, unfortunately,...","categories": [],
-        "tags": [],
-        "url": "/Jekyll/",
-        "teaser": null
-      },{
         "title": "Discipline",
         "excerpt":"When I was at college I developed rhinitis and felt splitting headache when the temperature changed drastically. Many general practitioners in my hometown had prescribed me some tablets but in vain. Ironically, I felt better only if I was have them. As a matter of fact, I couldn’t have these...","categories": ["journals","draft"],
         "tags": ["journals"],
@@ -69,11 +63,5 @@ var store = [{
         "excerpt":"As Artificial Intellengence is becoming more and more popular, many generated video have been releasing on the Internet. Whereas, I was not astound by these fabulously well generated scenery which was not breathtaking at all. On the contrary, I have subscribed some travelling and geographic channels in which considerable number...","categories": [],
         "tags": [],
         "url": "/Visiting-Genuine-Landscape/",
-        "teaser": null
-      },{
-        "title": "Bananas",
-        "excerpt":"A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called “plantains”, distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but...","categories": [],
-        "tags": [],
-        "url": "/Bananas/",
         "teaser": null
       }]

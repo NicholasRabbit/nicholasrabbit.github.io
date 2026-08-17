@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Keep On Learning TDD"
 date: 2024-04-22 12:00:00 +0000
 categories: [TDD]

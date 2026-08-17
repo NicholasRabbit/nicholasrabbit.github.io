@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Writing My First Code of TDD"
 date: 2024-04-09 09:17 
 categories: [TDD]

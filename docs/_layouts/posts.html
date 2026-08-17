@@ -5,6 +5,7 @@ layout: archive
 
 {{ content }}
 
+<!-- 
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
@@ -29,3 +30,19 @@ layout: archive
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
+
+-->
+
+
+<!--Undisplay the dates-->
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
+
+{{ content }}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% assign sorted_posts = site.posts | where_exp: "item", "item.hidden != true" %}
+  {% for post in sorted_posts %}
+    {% include archive-single.html locale=locale type=entries_layout %}
+  {% endfor %}
+</div>

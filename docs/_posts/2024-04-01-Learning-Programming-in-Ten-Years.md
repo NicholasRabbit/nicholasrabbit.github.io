@@ -1,5 +1,4 @@
 ---
-layout: posts
 title:  "Learning Programming in Ten Years"
 ---
 
