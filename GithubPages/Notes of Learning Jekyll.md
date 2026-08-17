@@ -118,11 +118,32 @@ Read the document of this chapter.
 
 "permalink" allows us to customise the URL for a page; the URL can be different from the page's name.
 
-As an illustration, if you want the URL of `/my_pages/about-me.html` to be `/about/`, you should set the it to the value of `permalink` in the front matter of the page. 
+(1) As an illustration, if you want the URL of `/my_pages/about-me.html` to be `/about/`, you should set the it to the value of `permalink` in the front matter of the page. 
 
 ```markdown
 ---
 permalink: /about/
 ---
+```
+
+(2) Another example is that I can set front matter in my `_pages/about.md`  and add URL in `_data/navigation.yml` , so that the "About" can be accessed. 
+
+`_pages/about.md`
+
+```markdown
+---
+layout: single
+permalink: /about/
+title: About 
+---
+```
+
+`_data/navigation.yml`
+
+```yaml
+# main links
+main:
+  - title: "About"
+    url: /about/
 ```
 
