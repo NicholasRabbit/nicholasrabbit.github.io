@@ -4,10 +4,12 @@ permalink: /about/
 title: About 
 ---
 
-#### Why do I build this website?
+#### Who am I? 
 
-If I had enough time, I would build my website on GitHub pages. As a programmer, it is quite convenient to build a website based on a repository in GitHub. I always write essays, journals and so forth, which helps me improve English writing and will offer sentimental value when I'm old. 
+I am a software engineer, like my first tutor said. He told me I was a engineer in his first free online course even before writing the first line of code. I had been working in a metropolis for years and wanted to find a job to stay with my family. Then I kept on learning and become a software developer. 
 
- However, as far as I know, I should build it from scratch. There must be some templates somewhere. In order to save a middle-aged man's precious time, I will find them later.
+#### Why do I build this website? 
 
-Presumably, there are grammatical errors, misspelled words and inappropriate expression in these essays, but it is acknowledged that making mistakes is inevitable when you are learning a language. Whereas, that does not mean I will ignore that. 
+As a middle-aged man, I want to write and read my writings when I am older, which have a sentimental value for me. On the other hand, I would like to share my thoughts and I am very appreciate my readers' feedback. 
+
+
